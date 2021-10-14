@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.e950e9c265e1413aa1079a1d037e6c85.js"
+  "precache-manifest.6f169b2c1b1caf818c00242f244903f1.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "tmc-exam"});
+workbox.core.setCacheNameDetails({prefix: "exam"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
